@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+  <head>
+    <!--Meta tag-->
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <!--Link to CSS-->
+    <link href="./assests/Css/stylesheet.css" rel="stylesheet">
+    
+    <title>Quiz</title>
+  
+  </head>
+  
+  
+  <body>
+
+    <!--Main outer div-->
+    <div class="outer-container">
+      <!--Top bar section-->
+      <div class="top-bar">
+
+        <a href="./highscorepage.html">View Highscores</a>
+        <p id="timer"></p>
+        <p>Timer:</p>
+
+      </div> <!--End Top Bar section-->
+      <!--Inner div-->
+      <div class="inner-container">
+
+        <!--Step 1-->
+
+  
+      <!--Quiz Intro-->
+    <header class="quiz-intro">
+
+      <h1>Welcome</h1><br>
+      <p>To get started with the quiz, click the start button.</p>
+      <br>
+      <button id="startbtn">START</button>
+
+    </header>
+  
+    <!--Main content-->
+    <main>
+        <!--Step 2-->
+        <section class="question-screen hide">
+          <h2 id="questions"></h2>
+
+          <ul>
+            <li><button id="button-a">Answer 1</button></li>
+            <li><button id="button-b">Answer 2</button></li>
+            <li><button id="button-c">Answer 3</button></li>
+            <li><button id="button-d">Answer 4</button></li>
+          </ul>
+
+          <p id="feedback"></p>
+
+        </section>
+
+        <!--Step 3-->
+        <section class="quiz-finish-screen hide">
+          <h2>All done!</h2>
+          <p>Your Score: <span id="final-score"></span></p>
+          <div>
+          <label for="">Enter </label>
+          <input type="text" id="initials" />
+          <button id="submit">SUBMIT</button>
+          </div>
+        </section>
+
+    </main>
+
+
+      </div> <!--End Inner Div-->
+    </div> <!--End Main outer div-->
+  
+  
+  </body>
+    <!--Link to JS-->
+    <script src="./assests/Js/JavaScript.js"></script>
+
+  </html>
