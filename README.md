@@ -12,4 +12,6 @@ HTML / CSS / JavaScript
 
 # Screenshot of website
 
-[]
+![index screenshot](https://raw.githubusercontent.com/Leocrydis/knowledge-pop-quiz/main/assests/pictures/leocrydis.github.io_knowledge-pop-quiz_index.html.png)
+![question screnshot](https://raw.githubusercontent.com/Leocrydis/knowledge-pop-quiz/main/assests/pictures/leocrydis.github.io_knowledge-pop-quiz_index.html%20(1).png)
+![highscore screenshot](https://raw.githubusercontent.com/Leocrydis/knowledge-pop-quiz/main/assests/pictures/leocrydis.github.io_knowledge-pop-quiz_highscorepage.html.png)
